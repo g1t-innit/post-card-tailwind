@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: "JosefineSans-Bold";
+        src: url(../public/fonts/JosefinSans-Bold.ttf) format("truetype");
+    }
+}
+
+@layer base {
+    @font-face {
+        font-family: "JosefineSans-Bold";
+        src: url(../public/fonts/JosefinSans-Regular.ttf) format("truetype");
+    }
+}
