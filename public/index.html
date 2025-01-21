@@ -1,27 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Card</title>
     <link rel="stylesheet" href="./styles/app.css">
 </head>
-<body class="bg-white ">
+<body class="bg-white dark:bg-gray-900 font-josefin-sans-regular">
     <div class="container">
-        <div class="wrapper max-w-[320px] mx-auto mt-9 overflow-hidden rounded-md">
+        <div class="wrapper max-w-[320px] mx-auto mt-9 border border-zinc-100 dark:bg-gray-800 dark:text-white overflow-hidden rounded-lg shadow-md">
             <img src="./images/img-1.jpg" alt="card image" class="card__img">
-            <div class="card__content">
-                <h2 class="card__content-title">The Future of AI And Humanity</h2>
+            <div class="card__content flex flex-col  space-y-4 p-4 my-2">
+                <h2 class="card__content-title font-josefin-sans-bold text-xl">The Future of AI And Humanity</h2>
 
                 <p class="card__content-text">Here is an overlook to the future of AI and humanity by considering the growing potential risks of implenting it in every aspect of our lives.
                 </p>
 
-                <a href="#" class="card__content-link">Read more
+                <a href="#" class="card__content-link flex items-center justify-center w-28 text-sm p-2 overflow-hidden rounded-md text-center bg-green-600 hover:bg-green-500 transition-all duration-300 color text-white">
+                    Read more
 
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
-                      </svg>
-                      
+                      </svg>  
                 </a>
             </div>
         </div>

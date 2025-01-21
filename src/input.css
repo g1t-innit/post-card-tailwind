@@ -4,14 +4,14 @@
 
 @layer base {
     @font-face {
-        font-family: "JosefineSans-Bold";
-        src: url(../public/fonts/JosefinSans-Bold.ttf) format("truetype");
+        font-family: "JosefinSans-Bold";
+        src: url("../public/fonts/JosefinSans-Bold.ttf") format("truetype");
+        font-weight: bold;
     }
-}
 
-@layer base {
     @font-face {
-        font-family: "JosefineSans-Bold";
-        src: url(../public/fonts/JosefinSans-Regular.ttf) format("truetype");
+        font-family: "JosefinSans-Regular";
+        src: url("../public/fonts/JosefinSans-Regular.ttf") format("truetype");
+        font-weight: normal;
     }
 }
